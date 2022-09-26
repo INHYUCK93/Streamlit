@@ -1,0 +1,6 @@
+streamlit
+numpy
+pandas
+rainflow
+hashlib
+sqlite3
