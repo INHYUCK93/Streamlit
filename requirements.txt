@@ -72,7 +72,6 @@ PySocks
 python-dateutil 
 pytz==2022.2.1
 pytz-deprecation-shim==0.1.0
-pywin32==223
 pywinpty
 pyzmq==23.2.1
 rainflow==3.1.1
