@@ -75,7 +75,7 @@ def main():
 					number = st.number_input("- 작업기 개수를 입력", step = 1)
 					for i in range(1, number+1):
 						st.markdown("###### ● {}번 작업기".format(i))
-						col_1, col_2, col_3 = st.columns(3, gap = "small")
+						col_1, col_2, col_3 = st.columns(3)
 						with col_1:
 							work_name = st.text_input("- {}번 작업기 이름 설정".format(i))
 						with col_2:
