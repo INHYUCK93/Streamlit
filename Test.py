@@ -81,7 +81,7 @@ def main():
 						with col_2:
 							option_2 = st.number_input("{} 데이터 시작 지점 입력".format(work_name), step=1, value=48)
 						with col_3:
-							option_1 = st.radio("- {} 작업기 PTO 사용여부".format(work_name), ("사용", "미사용"), horizontal=True)
+							option_1 = st.radio("- {} 작업기 PTO 사용여부".format(work_name), ("사용", "미사용"))
 
 						upload_files_1 = st.file_uploader("- {} 데이터 파일 업로드".format(work_name), accept_multiple_files=True)
 
