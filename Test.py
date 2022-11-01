@@ -44,6 +44,7 @@ def main():
 
 	if choice == "홈":
 		st.subheader("홈화면")
+		
 		st.markdown("#### {}".format(os.getcwd()))
 
 	elif choice == "로그인":
