@@ -137,7 +137,7 @@ def main():
 						with col_1:
 							work_name = st.text_input("- {}번 작업기 이름 설정".format(i))
 						with col_2:
-							option_1 = st.radio("- {} 작업기 PTO 사용여부".format(work_name), ("사용", "미사용"), horizontal=True)
+							option_1 = st.radio("- {} 작업기 PTO 사용여부".format(work_name), ("사용", "미사용"))
 
 						upload_files = st.file_uploader("- {} 데이터 파일 업로드".format(work_name), accept_multiple_files=True)
 						col_3, col_4 = st.columns([3,1.4])
